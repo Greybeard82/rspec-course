@@ -19,5 +19,13 @@ RSpec.describe 'Nested Hooks' do
         before(:example) do
             puts 'Inner before example'
         end
+
+        it 'Does some more basic math' do
+            expect(1+1).to eq(2)
+        end
+
+        it 'Does subtraction too' do
+            expect(5-3).to eq(2)
+        end
     end
 end
