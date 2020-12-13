@@ -12,4 +12,4 @@ RSpec.describe Array do
     it 'Sally is equal to original example' do
         expect(sally).to eq(subject)
     end
-end
+enddo
