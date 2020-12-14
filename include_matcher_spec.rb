@@ -19,7 +19,6 @@ RSpec.describe 'include matcher' do
         
     end
     
-    
     describe ({a: 2, b: 4}) do
         it 'can check for a key existence' do
             expect(subject).to include(:a)
